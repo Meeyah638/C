@@ -16,12 +16,11 @@
         }
 
         form {
-            background-color: white;
             box-shadow: inset 0px 0px 20px 5px white;
             background: rgba(255, 255, 255, 0.1);
-            width: fit-content;
+            width: 50%;
             margin: 0px 10px 0px 10px;
-            padding: 10px 0px 30px 10px;
+            padding: 20px
         }
 
         label {
@@ -33,31 +32,51 @@
         input {
             outline: none;
             border-style: none;
-            width: 260px;
+            box-sizing: border-box;
             border-radius: 20px;
             border: none;
             padding: 10px;
-            margin: 10px 10px 0px 5px;
+            margin: 5px 0px;
             box-shadow: inset 0px 0px 7px 0px white;
             background: rgba(255, 255, 255, 0.2);
+            width: 100%;
         }
 
         button {
             color: white;
             font-size: 10px;
             font-weight: bold;
-            width: 260px;
+            width: 100%;
             border-radius: 15px;
             border: none;
             padding: 10px 10px 10px 20px;
             box-shadow: inset 0px 0px 10px 0px white;
             background: rgba(255, 255, 255, 0.2);
-            margin: 10px 10px 0px 10px;
+            margin: 10px 0px 0px 0px;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+            background-color: brown;
+            padding: 10px;
+        }
+
+        li {
+            margin: 30px 0px;
         }
     </style>
+
 </head>
 
 <body>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="letter.html">About</a></li>
+        <li><a href="framechess.html">Image</a></li>
+    </ul>
+
     <form>
         <label for="email">EMAIL</label><br>
         <input type="text" name="useremail" id="email"><br>

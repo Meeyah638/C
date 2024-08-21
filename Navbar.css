@@ -1,0 +1,96 @@
+.background {
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+img {
+    width: 50px;
+    height: 30px;
+}
+
+.name {
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+    display: flex;
+}
+
+h3 {
+    margin: 0px 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+button {
+    color: white;
+    background-color: rgb(52, 192, 247);
+    border-radius: 7px;
+    padding: 10px;
+    border: none;
+}
+
+.home {
+    color: rgb(52, 192, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.white {
+    margin: 0px 30px;
+}
+
+.quest {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.icon {
+    background-color: rgb(124, 252, 0);
+    padding: 30px 30px;
+
+}
+
+.why {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.another {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+
+.All {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+p {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5 {
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.know {
+    color: black;
+    background-color: orangered;
+}

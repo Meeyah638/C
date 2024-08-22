@@ -40,3 +40,24 @@ tr:nth-child(odd) td:nth-child(odd) {
 tr:nth-child(even) td:nth-child(even) {
     background: black;
 }
+
+img {
+    width: 50%;
+}
+
+.rotate {
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
